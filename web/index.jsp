@@ -9,9 +9,27 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home</title>
+        <link rel="stylesheet" href="css/style.css"/>
     </head>
-    <body>
-        <h1>Hello World!</h1>
+    <body class="body">
+        <h1>Home</h1>
+        <div class="div">
+            <div>Mobile : ${sessionScope.user.mobile}</div>
+        </div>
+        <div class="div">
+            <div>Name : ${sessionScope.user.name}</div>
+        </div>
+        <div class="div">
+            <div>Gender : ${sessionScope.user.gender}</div>
+        </div>
+        <div class="div">
+            <div>Country : ${sessionScope.user.country}</div>
+        </div>
+        <div class="div">
+            <form action="User_Logout" method="GET">
+                <button type="submit">Logout</button>
+            </form>
+        </div>
     </body>
 </html>
