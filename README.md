@@ -1,11 +1,10 @@
-Java EE 6 Web Application..
-A Java EE 6 web application designed for user management, including user registration and login functionalities. Deployed on GlassFish Server, this application uses JavaServer Pages (JSP), Servlets, and Java Persistence API (JPA) for a seamless user experience. It allows users to create accounts, authenticate, and manage their profiles.
+
 
 # Java EE 6 Web Application
 
 ## Description
 
-This is a Java EE 6 web application that demonstrates user registration and login functionalities. The application is deployed on a GlassFish server and provides basic user management features.
+A Java EE 6 web application designed for user management, including user registration and login functionalities. Deployed on GlassFish Server, this application uses JavaServer Pages (JSP), Servlets, and Java Persistence API (JPA) for a seamless user experience. It allows users to create accounts, authenticate, and manage their profiles.
 
 ## Features
 
@@ -33,7 +32,7 @@ This is a Java EE 6 web application that demonstrates user registration and logi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+         git clone https://github.com/yourusername/your-repository.git
 Deploy the Application:
 
 Open GlassFish Admin Console.
@@ -43,30 +42,49 @@ Click on "Deploy..." and upload the WAR file located in the target/ directory.
 Usage
 Access the Application:
 
-Open a web browser and navigate to http://localhost:8080/yourapp.
+Open a web browser and navigate to http://localhost:8080/Project-EE-6/user_registration.jsp.
 Register a New User:
 
 Go to the registration page and provide the required details.
 Login:
 
 Use the login page to authenticate with your registered credentials.
+## Contributing
 
-Contributing
-Fork the repository on GitHub.
-Create a new branch:
-bash
-Copy code
-git checkout -b your-feature-branch
-Make your changes and commit them:
-bash
-Copy code
-git add .
-git commit -m "Add your message"
-Push to your branch:
-bash
-Copy code
-git push origin your-feature-branch
+
+3. **Create a new branch**:
+   - Navigate to the project directory:
+     ```bash
+     cd your-repository
+     ```
+   - Create a new branch for your feature or fix:
+     ```bash
+     git checkout -b your-feature-branch
+     ```
+
+4. **Make your changes**:
+   - Edit the files and make your changes.
+
+5. **Commit your changes**:
+   - Stage the changes you made:
+     ```bash
+     git add .
+     ```
+   - Commit the changes with a descriptive message:
+     ```bash
+     git commit -m "Add a concise description of your changes"
+     ```
+
+6. **Push to your branch**:
+   - Push the changes to your forked repository:
+     ```bash
+     git push origin your-feature-branch
+     ```
+Thank you for contributing!
+
+
 Create a pull request to merge your changes.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
