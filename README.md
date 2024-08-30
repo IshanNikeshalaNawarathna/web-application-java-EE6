@@ -90,7 +90,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contact
 Maintainer:   Ishan Nikeshala Nawarathna
-Email: your.ishannikeshala1999@gmail.com
+Email:ishannikeshala1999@gmail.com
 
 Acknowledgments
 Special thanks to any libraries/tools used in this project.
